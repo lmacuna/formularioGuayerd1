@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+    <form action=""id="formulario">
+       
+        <div class="horizontal">
+            <input class="bordeblanco" id="primero" type="text" placeholder="ingresar nombre"value="">
+        </div>
+        
+        <div class="horizontal">
+            <input class="bordeblanco" id="segundo" type="number"placeholder="edad"value="">
+        </div>
+        
+        <div  class="horizontal">
+            <input class="bordeblanco" id="tercero" type="number"placeholder="telefono"value="">
+        </div>
+        <div>
+            <input class="bordeblanco" type="email" id="cuarto" placeholder="E-mail" value="">
+        </div>
+        <input onclick="restablecer1()" class="boton" type="reset">
+        <div class="boton">
+            <button  type="button"onclick="mensaje()">Enviar</button>
+      
+        </div>
+        <br>
+        <span id="mensaje">
+
+        </span>
+    
+    </form>
+
+   </div>
+   <br><br><br>
+   <div class="contenedor">
+   <button onclick="recuperar()">Info</button>
+   <input onclick="restablecer()" type="reset">
+   <button class="borrar" onclick="borrar()">Borrar</button>
+   <br><br><br>
+   <div class="informacion">
+      
+   <div id="info">
+    
+   </div>
+
+</div>
+</div>
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>

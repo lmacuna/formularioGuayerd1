@@ -1,0 +1,66 @@
+.verde{
+    background: green;
+}
+body{
+    background:grey;
+}
+.horizontal{
+    display: inline-table;
+}
+.borderojo{
+    border:1px solid red;
+}
+.bordeverde{
+    border: 1px solid lightgreen;
+}
+input{
+    height: 25px !important;
+    
+    margin:5px;
+    border-radius: 9px;
+    
+}
+.bordeblanco{
+    border: 1px solid white;
+}
+button{
+    
+    width: 65px;
+    height: 45px;
+    background: whitesmoke;
+    background: grey;
+    border-radius: 7px;
+    color: whitesmoke;
+}
+button:active{
+    text-shadow: 1px 1px 1px black;
+}
+.boton{
+  
+    float: right;
+}
+.contenedor{
+    width: 50%;
+    height: 200px;
+    background: lightgrey;
+    margin:30px;
+    padding: 20px;
+    border-radius: 14px;
+}
+.informacion{
+    width: 95%;
+    height: 100px;
+    background: royalblue;
+    margin: 15px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 11px;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+    font-size: 20px;
+}
+.borrar{
+    float: right;
+}
