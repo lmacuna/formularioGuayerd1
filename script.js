@@ -19,15 +19,18 @@ const mensaje=(e)=>{
         document.querySelector("#mensaje").innerHTML='<label style="color:red">'+"alguno de los campos esta vacio"+'</label>'
         if(campo1.length===0){
             document.querySelector("#primero").classList.replace("bordeblanco","borderojo")
-            
+            document.querySelector("#primero").classList.replace("bordeverde","borderojo")
         }else if(campo2.length===0){
             document.querySelector("#segundo").classList.replace("bordeblanco","borderojo")
+            document.querySelector("#segundo").classList.replace("bordeverde","borderojo")
             
         }else if(campo3.length===0){
             document.querySelector("#tercero").classList.replace("bordeblanco","borderojo")
+            document.querySelector("#tercero").classList.replace("bordeverde","borderojo")
            
         }else if(campo4.length===0){
             document.querySelector("#cuarto").classList.replace("bordeblanco","borderojo")
+            document.querySelector("#cuarto").classList.replace("bordeverde","borderojo")
         } 
             
         
@@ -35,6 +38,7 @@ const mensaje=(e)=>{
        // e.preventDefault()
            
     }else if(campo1!==null&&campo2!==null&&campo3!==null&&campo4!==null) { 
+        
         Swal.fire({title:'<span style="color:#fff;border-radius:8px">Enviando mensaje"</span>',icon:"success",grow:"fullscreen",background:"blue",timer:3000,timerProgressBar:true});
         enviado() 
        // alert("Enviado")
@@ -66,7 +70,7 @@ const mensaje=(e)=>{
 }
 
 
-//formulario.addEventListener("submit",mensaje)     
+//formulario.addEventListener("submit",mensaje)    cambie el submit por type button yle agregue un evento onclick con la funcion directamente
 
 
 let primero=document.querySelector("#primero")

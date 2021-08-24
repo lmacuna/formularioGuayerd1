@@ -43,7 +43,7 @@ button:active{
     width: 50%;
     height: 200px;
     background: lightgrey;
-    margin:30px;
+    margin:auto;
     padding: 20px;
     border-radius: 14px;
 }
